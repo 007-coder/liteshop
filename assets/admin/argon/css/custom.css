@@ -1,0 +1,76 @@
+.disp_none {
+	display: none;
+}
+
+/* Заказы */
+.table td .modal-content, 
+.table th .modal-content,
+.table td .shipping_details, 
+.table th .shipping_details,
+.table td .order_main_data, 
+.table th .order_main_data {
+	white-space: normal;
+} 
+
+.main-content.admin .card {
+	min-height: 500px;
+	padding-bottom: 35px;
+}
+.table-responsive.no_orders,
+.table-responsive.no_calls {
+	min-height: 400px;
+}
+.table-responsive.no_orders > .row,
+.table-responsive.no_calls > .row {
+	height: 100%;
+}
+.card .card-header {
+	padding: 1.25rem 1rem;
+}
+.card .table-responsive {
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+.card .table td,
+.card .table th {
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+}
+.order_actions .modal-dialog,
+.order_billing .modal-dialog
+ {
+	max-width: 800px;
+}
+.order_products .modal-dialog {
+	max-width: 1150px;
+}
+.order_products .modal-dialog .modal-title .mOrder_date,
+.order_actions .modal-dialog .modal-title .mOrder_date,
+.order_billing .modal-dialog .modal-title .mOrder_date {
+	font-size: 70%;
+	padding-left: 15px;
+}
+
+.orders_table .order_statuses > span {
+	padding: 1px 3px; 
+}
+.orders_table .shipping_details ul {
+	list-style: none;
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+.orders_table .shipping_details span.value {
+	font-weight: bold;
+}
+
+.orders_wrap .filters_wrap .filters_content {
+	display: none;
+}
+.modal-content .select2,
+.filters_wrap .select2 {
+	width: 100%!important;
+}
+
+.select2-container {
+	padding: 0!important;
+}

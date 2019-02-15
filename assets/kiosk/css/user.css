@@ -1,0 +1,538 @@
+.clear {
+	clear: both;
+}
+
+.text-center {
+	text-align: center;
+}
+.fs-85 {
+	font-size: 85%;
+}
+.fs-90 {
+	font-size: 90%;
+}
+.fs-95 {
+	font-size: 95%;
+}
+.fs-110 {
+	font-size: 110%;
+}
+.fs-130 {
+	font-size: 130%;
+}
+.inline-block {
+	display: inline-block;	
+}
+
+/*header*/
+.kiosk-cart > ul > li.header_lang > a,
+.kiosk-cart > ul > li.header_curr > a {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.kiosk-cart > ul > li.header_curr > a {
+	text-transform: lowercase;
+}
+.kiosk-cart > ul > li > .main-lang,
+.kiosk-cart > ul > li > .main-curr {
+	background: #fff;
+	padding:30px 20px 25px 20px;
+  width: auto;
+  left: auto;
+  right: 0;
+}
+
+/*Корзина */
+.main-kiosk-cart {
+	padding: 30px 20px 25px 20px;
+	width: 320px;
+}
+.main-kiosk-cart .cart-img {
+	max-height: 80px;
+	position: relative;
+}
+.main-kiosk-cart .cart-img > a {
+	text-align: center;
+	display: block;
+	width: 100%;
+}
+.main-kiosk-cart .cart-img img {
+	max-height: 80px;
+	max-width: auto;
+	display: inline-block;
+	margin: 0 auto;
+}
+.table-content table td.kiosk-product-thumb {
+	width: 190px;
+}
+
+.table-content table td.product-quantity {
+	width: 150px;
+}
+
+.table-content table td.product-total {
+	width: 130px;
+}
+.table-content table td.product-add-to-cart {
+	width: 80px;
+}
+
+.kiosk-cart span.mark_name {
+	position: static;
+	color: #555;
+	font-size: inherit;
+	height: auto; width: auto;
+	text-align: left;
+	line-height: inherit;
+	top: auto;
+	font-weight: normal;
+	background: transparent;
+}
+.kiosk-cart span.cart-counter.has_products {
+	background: #1971C2;
+	color: #fff;
+}
+
+.kiosk-products-cart button[type="submit"] {
+	background: transparent;
+	border: 0;
+	padding: 2px 9px;  
+	color: #9D9D9D;
+}
+
+.kiosk-products-cart button[type="submit"]:hover {
+	cursor: pointer;
+	color: #000;
+}
+
+.kiosk-products-cart .amount_cart_price {
+	font-size: 135%;
+	font-style: italic;	
+}
+.kiosk-products-cart .amount_cart_price.old {
+	font-size: 85%;
+	font-style: italic;	
+	color: #9D9D9D;
+	text-decoration: line-through;
+}
+.kiosk-products-cart .qty_item_text {
+	color: #9D9D9D;
+	font-size: 85%;
+	margin-top: 10px;
+}
+
+.kiosk-products-cart .kiosk-product-thumb {
+	max-height: 230px;
+	position: relative;
+}
+
+.kiosk-products-cart .kiosk-product-thumb img {
+	width: auto;
+	height: 100%;
+	max-height: 220px;
+}
+
+.kiosk-products-cart .subtotal_wrap .kiosk-cart-button a {
+	width: 100%;
+	text-align: center;
+	display: block;
+	font-size: 15px;
+  font-weight: 400;
+  background: transparent;
+  margin-right: 0;
+}
+
+.table-content table td.product-name a {
+	margin-left: 0;
+	text-transform: none;
+}
+.table-content table td.product-name {
+
+}
+
+
+
+/*товар*/
+.sticker-new, .sticker-sale {
+	left: -19px;
+	transform: none;
+}
+.sticker-discount {
+	background: #E25E5E;	
+} 
+.kiosk-products-cart .sticker-discount,
+.single-kiosk-cart .cart-img .sticker-discount,
+.kiosk-checkout-area .kiosk-order-table .product_img .sticker-discount {
+	left: -2px;
+	font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 3px 15px;
+}
+
+.single-kiosk-cart .cart-img .sticker-discount,
+.kiosk-checkout-area .kiosk-order-table .product_img .sticker-discount  {
+	top: 5px;
+	font-size: 12px;
+	padding: 2px 12px;
+}
+
+
+/*Оформление покупки*/
+.kiosk-checkout-area .kiosk-order-table .amount,
+.kiosk-checkout-area .kiosk-order-table .price-button  {
+	word-spacing: normal;
+}
+.kiosk-order-table.total_to_pay table th {
+	text-transform: none;
+}
+.kiosk-checkout-area .kiosk-order-table .product_img {
+	text-align: center;
+	width: 20%;
+	position: relative;
+}
+.kiosk-checkout-area .kiosk-order-table .product-name {
+	width: 65%;
+} 
+.kiosk-checkout-area .kiosk-order-table .product-total {
+	width: 15%;
+}
+
+.kiosk-checkout-area .kiosk-order-table .product_img img {
+	width: auto;
+	height: 100%;
+	max-height: 100px;
+	display: inline-block;
+}
+.kiosk-checkout-area .kiosk-order-table .order-total td.h {
+	width: 30%;
+}
+.kiosk-checkout-area .kiosk-order-table .order-total td.product-total {
+	width: 70%;
+	text-align: right;
+}
+
+.kiosk-checkbox-form .checkout-form-list.error input,
+.kiosk-checkbox-form .checkout-form-list.error textarea {
+	border: 2px solid #F4A8A8;
+	background: #FDECEC; 
+}
+.kiosk-checkbox-form .checkout-form-list .tp_tooltip {
+	display: inline-block;
+	margin-left: 10px;
+	color: #7DA4E1;
+}
+
+
+/*Чекбоксы и радио для способов оплаты, достаки, аттрибутов*/
+.container_radio,
+.container_checkbox  {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container_radio .name,
+.container_checkbox .name,
+.container_radio .icon,
+.container_checkbox .icon {
+	display: inline-block;
+}
+.container_radio .name i,
+.container_checkbox .name i {
+	color: #9d9d9d;
+	font-size: 90%;
+}
+.container_radio:hover .name i,
+.container_checkbox:hover .name i {
+	color: #333;
+}
+
+/* Hide the browser's default radio button */
+.container_radio input,
+.container_checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container_radio:hover input ~ .checkmark,
+.container_checkbox:hover input ~ .checkmark
+{
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container_radio input:checked ~ .checkmark,
+.container_checkbox input:checked ~ .checkmark
+{
+  background-color: #1971C2;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container_radio input:checked ~ .checkmark:after,
+.container_checkbox input:checked ~ .checkmark:after
+{
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container_radio .checkmark:after,
+.container_checkbox .checkmark:after
+{
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+/*Показать заказ начало*/
+.kiosk-order-area .order_status span.os,
+.kiosk-order-area .order_status span.osp {
+	padding: 3px 8px;
+	display: inline-block;
+	margin-right: 15px;
+}
+.kiosk-order-area .order_number span.val {
+	color: #72539F;
+}
+
+.kiosk-order-area .order_number span.label,
+.kiosk-order-area .order_summ span.currency_code {
+	font-size: 65%;
+}
+.kiosk-order-area .order_number span.label {	
+	color: #666;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.kiosk-order-area .billing > p span {
+	display: inline-block;
+}
+.kiosk-order-area .billing > p span.label {
+	margin-right: 15px;	
+}
+.kiosk-order-area .billing > p span.val {
+	font-weight: bold;
+	font-style: italic;
+}
+.kiosk-order-area .shipping .amount_cart_price ,
+.kiosk-order-area .shipping .currency_code,
+.kiosk-order-area .payment .amount_cart_price,
+.kiosk-order-area .payment .currency_code
+
+ {
+	font-size: 130%;
+	font-style: italic;
+
+}
+/*Показать заказ конец*/
+
+
+/*Карточка товара начало*/
+.product-link {
+	border-top: 0;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.kiosk-product-details .prod_media .tab-content.img_large {
+	position: relative;
+}
+.kiosk-product-details .prod_media .stickers_wrap,
+.kiosk-products-cart .kiosk-product-thumb .stickers_wrap {
+	position: absolute;
+	top: 0; left: 0;
+}
+.kiosk-products-cart .kiosk-product-thumb .stickers_wrap  {
+	top: 10px;
+}
+.kiosk-product-details .prod_media .stickers_wrap .inner_wrap,
+.kiosk-products-cart .kiosk-product-thumb .stickers_wrap .inner_wrap {
+	position: relative;
+}
+.kiosk-product-details .prod_media .stickers_wrap .sticker-new,
+.kiosk-products-cart .kiosk-product-thumb .stickers_wrap .sticker-new {
+	position: static;
+	display: inline-block;
+}
+.kiosk-products-cart .kiosk-product-thumb .stickers_wrap .sticker-new.label {
+	padding: 3px 15px;
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: 500;
+	background: #333;
+}
+.kiosk-products-cart .kiosk-product-thumb .stickers_wrap li {
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+.kiosk-product-details .prod_media .tab-content.img_large .tab-pane {
+	max-height: 450px; 
+}
+.kiosk-product-details .prod_media .img_large .tab-pane > a {
+	display: block;
+	max-height: 450px; 
+	width: 100%;
+}
+
+.kiosk-product-details .prod_media .img_large .tab-pane img,
+.kiosk-product-details .prod_media .kiosk-product-thumb img,
+.kiosk-product-details .prod_media .kiosk-product-thumb i.fas {
+	width: auto; display: block; margin: 0 auto;
+}
+.kiosk-product-details .prod_media .kiosk-product-thumb i.fas {
+	width: 46px;
+	text-align: center;
+}
+.kiosk-product-details .prod_media .kiosk-product-thumb img {
+	height: auto; max-height: 90px;
+}
+.kiosk-product-thumb.videos .thumb-menu.nav a {
+	padding: 10px 0;
+}
+
+
+.kiosk-product-details .pro-price .oldPrice {
+	color: #9d9d9d;
+	text-decoration: line-through;
+}
+.kiosk-product-description .sku_available,
+.kiosk-product-description .sku_out_stock {
+	padding: 4px 8px;	
+} 
+.kiosk-product-description .sku_available {
+	background: #C0E6AE;
+
+}
+.kiosk-product-description .sku_out_stock {
+	background: #B1B3B1;
+}
+.kiosk-product-details .kiosk-addtocart-btn button[type="submit"] {
+    background: #333;
+    border: medium none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    height: 50px;
+    margin: 0;
+    padding: 0 35px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+/*Карточка товара конец*/
+
+
+/*Сообщения НАЧАЛО*/
+.message_wrap .message {
+	border: 2px solid #F3F3F3;
+	position: relative;
+}
+.message_wrap .message.ok {
+	background: #E2FAE7;
+}
+.message_wrap .message.error {
+	background: #FAE2E2;
+}
+.message_wrap .message .close_btn {
+	position: absolute;
+	right: 5px; top: 5px;
+	cursor: pointer;
+}
+/*Сообщения КОНЕЦ*/
+
+
+/*OWl карусель товаров НАЧАЛО*/
+.product-area .single-product {
+	margin-top: 10px;
+}
+.kiosk-product-img {
+	position: relative;
+}
+.kiosk-product-img img {
+	width: auto!important;
+	height: 100%;	
+	max-height: 268px;	
+	margin: 0 auto!important;	
+}
+.kiosk-product-img .prod_price {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(255,255,255,0.85);
+	padding: 6px 12px;
+	z-index: 55;
+} 
+.kiosk-product-img .prod_price > p {
+	text-align: right;
+}
+.kiosk-product-img .prod_price > p .price {
+	font-size: 130%;
+	font-weight: bold;
+}
+.kiosk-product-img .prod_price > p .prev-price {
+	font-size: 80%;
+}
+.kiosk-product-img .stickers_wrap {
+	position: absolute;
+	top: 5px;
+	left: 0;
+	z-index: 55;
+}
+.kiosk-product-img .stickers_wrap li {
+	margin-bottom: 5px!important;
+}
+.kiosk-product-img .stickers_wrap .sticker-new {
+	display: inline-block;
+	position: static;
+	padding: 3px 20px;
+}
+/*.kiosk-product-img a {
+	display: block;	
+	background: #F6F6F6;
+}
+.kiosk-product-img img {
+	width: auto!important;
+	height: 100%;	
+	max-height: 268px;	
+	margin: 0 auto!important;	
+}
+.kiosk-product-img img.second-img {
+	margin: 0 auto!important;		
+}*/
+/*OWl карусель товаров КОНЕЦ*/
